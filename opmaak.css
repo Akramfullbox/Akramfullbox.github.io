@@ -48,3 +48,8 @@ ul {
 .waarom-link:hover {
   border: rgb(224, 64, 64) 1px solid;
 }
+
+p {
+  width: 50%;
+
+}
