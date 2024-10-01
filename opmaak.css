@@ -43,3 +43,7 @@ ul {
     font-weight: bold;
     text-decoration: none;
 }
+
+.waarom-link:hover {
+  border: turquoise 1px solid;
+}
