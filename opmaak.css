@@ -63,3 +63,11 @@ p {
   font-size: medium; /*dit zorgt voor een tekstgrote large*/
   background-color: #F1F1F1; /*achtergrond kleur voor de footer*/
 } 
+
+.footer {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px; /* Dit geeft wat ruimte binnen de footer */
+  background-color: #f1f1f1; /* Dit is optioneel, alleen voor een achtergrondkleur */
+  width: 100%; /* Dit zorgt ervoor dat de footer de volledige breedte van de pagina beslaat */
+}
