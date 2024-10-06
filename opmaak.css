@@ -52,22 +52,12 @@ ul {
 p {
   width: 50%;
 
-}
-.footer {
-  position: relative;
-  left: 1;
-  bottom: 0;
-  width: 100%;
-  text-align: center; /*dit geeft aan waar de text zal komen te staan, dus in het midden*/
-  padding: 10px; /*dit zorgt voor de hoogte van de footer*/
-  font-size: medium; /*dit zorgt voor een tekstgrote large*/
-  background-color: #F1F1F1; /*achtergrond kleur voor de footer*/
-} 
-
-.footer {
-  text-align: center;
-  margin: 0 auto;
-  padding: 20px; /* Dit geeft wat ruimte binnen de footer */
-  background-color: #f1f1f1; /* Dit is optioneel, alleen voor een achtergrondkleur */
-  width: 100%; /* Dit zorgt ervoor dat de footer de volledige breedte van de pagina beslaat */
+  .footer {
+    text-align: center; /* Centreert de tekst */
+    position: fixed;    /* Zorgt ervoor dat de footer altijd onderaan blijft */
+    bottom: 0;          /* Plaatst de footer onderaan de pagina */
+    left: 0;            /* Zorgt ervoor dat de footer volledig breedte van de pagina heeft */
+    width: 100%;        /* Maakt de footer zo breed als de pagina */
+    background-color: #f1f1f1; /* Optioneel: achtergrondkleur voor de footer */
+    padding: 10px 0;    /* Optioneel: ruimte boven en onder de tekst */
 }
