@@ -59,18 +59,12 @@ ul {
   padding: 10px 0;    /* Optioneel: ruimte boven en onder de tekst */
 }
 
-.schoolvakken-container {
-  display: flex;                /* Plaatst de tekst en afbeelding naast elkaar */
-  align-items: center;         /* Centreert de items verticaal */
-  justify-content: center;      /* Centreert de items horizontaal */
-  margin: 20px 0;             /* Voegt ruimte toe boven en onder de container */
+.footer {
+  margin-top: 20px; /* Voeg ruimte toe boven de footer */
+  text-align: center; /* Centreert de tekst in de footer */
 }
 
-.schoolvakken {
-  margin-right: 20px;          /* Ruimte tussen de tekst en de afbeelding */
-}
-
-.schoolvakken-image {
-  width: 200px;                /* Breedte van de afbeelding */
-  height: 200px;               /* Hoogte van de afbeelding */
+img {
+  display: block; /* Zorgt ervoor dat de afbeelding een blok element is */
+  margin: 0 auto; /* Centreert de afbeelding */
 }
