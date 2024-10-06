@@ -49,3 +49,32 @@ ul {
   border: rgb(224, 64, 64) 1px solid;
 }
 
+body {
+  font-family: Arial, sans-serif; /* Gebruik een eenvoudige, leesbare lettertype */
+}
+
+
+h1.paragraaf {
+  font-size: 24px; /* Grotere tekst voor de kopjes */
+  text-align: center; /* Centreer het kopje */
+}
+
+p {
+  font-size: 16px; /* Normale tekstgrootte voor paragrafen */
+  width: 60%; /* Paragraafbreedte, zodat de tekst niet te breed is */
+  margin: 10px auto; /* Gecentreerd met automatische marges */
+  line-height: 1.5; /* Ruimte tussen de regels voor betere leesbaarheid */
+}
+
+a {
+  display: block; /* Zorgt ervoor dat de link als een blok wordt weergegeven */
+  text-align: center; /* Centreer de link */
+  margin-top: 10px; /* Ruimte boven de link */
+}
+
+img {
+  display: block; /* Zorg ervoor dat de afbeelding op een nieuwe regel komt */
+  margin: 10px auto; /* Centreer de afbeelding met automatische marges */
+  width: 250px; /* Stel de breedte van de afbeelding in */
+  height: auto; /* Zorgt ervoor dat de hoogte zich aanpast aan de breedte */
+}
