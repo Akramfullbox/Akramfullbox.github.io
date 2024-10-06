@@ -50,18 +50,18 @@ ul {
 }
 
 .footer {
-  text-align: center; /* Centreert de tekst */
-  position: fixed;    /* Zorgt ervoor dat de footer altijd onderaan blijft */
-  bottom: 0;          /* Plaatst de footer onderaan de pagina */
-  left: 0;            /* Zorgt ervoor dat de footer de volledige breedte van de pagina heeft */
-  width: 100%;        /* Maakt de footer zo breed als de pagina */
-  background-color: #f1f1f1; /* Optioneel: achtergrondkleur voor de footer */
-  padding: 10px 0;    /* Optioneel: ruimte boven en onder de tekst */
-  margin-top: 220px;  /* Voeg ruimte toe boven de footer, gelijk aan de hoogte van de afbeelding + padding */
+  text-align: center; <!-- Centreert de tekst -->
+  position: fixed;    <!-- Zorgt ervoor dat de footer altijd onderaan blijft -->
+  bottom: 0;          <!-- Plaatst de footer onderaan de pagina -->
+  left: 0;            <!-- Zorgt ervoor dat de footer de volledige breedte van de pagina heeft -->
+  width: 100%;        <!-- Maakt de footer zo breed als de pagina -->
+  background-color: #f1f1f1; <!-- Optioneel: achtergrondkleur voor de footer -->
+  padding: 10px 0;    <!-- Optioneel: ruimte boven en onder de tekst -->
+  margin-top: 220px;  <!-- Voeg ruimte toe boven de footer, gelijk aan de hoogte van de afbeelding + padding -->
 }
 
 img {
-  display: block; /* Zorgt ervoor dat de afbeelding een blok element is */
-  margin: 0 auto; /* Centreert de afbeelding */
-  padding-bottom: 20px; /* Voeg ruimte toe onder de afbeelding als dat nodig is */
+  display: block; <!-- Zorgt ervoor dat de afbeelding een blok element is -->
+  margin: 0 auto; <!-- Centreert de afbeelding -->
+  padding-bottom: 20px; <!-- Voeg ruimte toe onder de afbeelding als dat nodig is -->
 }
