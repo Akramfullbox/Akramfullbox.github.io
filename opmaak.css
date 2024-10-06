@@ -67,4 +67,5 @@ ul {
 img {
   display: block; /* Zorgt ervoor dat de afbeelding een blok element is */
   margin: 0 auto; /* Centreert de afbeelding */
+  padding-bottom: 20px; /* Voeg ruimte toe onder de afbeelding als dat nodig is */
 }
