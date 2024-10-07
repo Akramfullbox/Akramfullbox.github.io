@@ -61,93 +61,30 @@ li a:hover {
   left: 1; /* Positie naar de linkerkant (enkele eenheid) */
 }
 
-/* Algemene instellingen voor de body */
 body {
   background-color: rgb(240, 255, 255); /* Lichte achtergrondkleur */
   font-family: Arial, sans-serif; /* Lettertype */
-  color: #333; /* Tekstkleur */
-  line-height: 1.6; /* Regelhoogte voor betere leesbaarheid */
+  color: #333; /* Kleur van de tekst */
 }
 
-/* Stijlen voor kopjes */
-h1, h2, h3 {
+/* Stijl voor kopjes (h3) */
+h3 {
   color: rgb(0, 153, 204); /* Kleur voor kopjes */
-  text-align: center; /* Centreer kopjes */
+  text-align: center; /* Kopjes centreren */
+  margin-top: 20px; /* Ruimte boven het kopje */
 }
 
-/* Stijlen voor paragrafen */
-p {
-  margin: 15px 0; /* Ruimte boven en onder paragrafen */
-}
-
-/* Stijlen voor de navigatiebalk */
-ul {
-  list-style-type: none; /* Geen opsommingstekens */
-  margin: 0; /* Geen marge */
-  padding: 0; /* Geen padding */
-  overflow: hidden; /* Voorkom overflow */
-  background-color: #333; /* Achtergrondkleur van de navigatie */
-}
-
-li {
-  float: left; /* Plaats de lijstitems naast elkaar */
-}
-
-li a {
-  display: block; /* Maak de links blokken */
-  color: white; /* Tekstkleur van de links */
-  text-align: center; /* Centreer de tekst */
-  padding: 14px 16px; /* Padding rondom de links */
-  text-decoration: none; /* Geen onderstreping */
-}
-
-/* Hover-effect voor de links in de navigatie */
-li a:hover {
-  background-color: #111; /* Achtergrondkleur bij hover */
-}
-
-/* Stijlen voor de footer */
-.footer {
-  background-color: rgb(240, 240, 240); /* Achtergrondkleur van de footer */
-  padding: 12px; /* Ruimte rondom de footer */
-  text-align: center; /* Centreer de tekst in de footer */
-  color: rgb(0, 0, 0); /* Tekstkleur van de footer */
-  position: relative; /* Relatieve positionering */
-  width: 100%; /* Volledige breedte van de footer */
-}
-
-/* Specifieke stijlen voor een speciaal element */
-.speciaal {
-  border: dashed 3px turquoise; /* Dashed rand */
-  background-color: azure; /* Achtergrondkleur van speciaal element */
-  margin-left: 10%; /* Marget aan de linkerkant */
-}
-
-/* Stijlen voor de hobby sectie */
+/* Opmaak voor de paragrafen met schoolvakken en hobby's */
 .witte-tekst {
-  color: white; /* Witte tekstkleur voor hobbys */
-  background-color: rgb(0, 153, 204); /* Achtergrondkleur van hobbys */
-  padding: 10px; /* Padding rondom de tekst */
+  color: white; /* Witte tekstkleur */
+  background-color: rgb(0, 153, 204); /* Achtergrondkleur */
+  padding: 10px; /* Ruimte rondom de tekst */
   border-radius: 5px; /* Ronde hoeken */
-  margin: 10px 0; /* Ruimte boven en onder */
+  margin: 10px auto; /* Ruimte boven en onder, en centreren */
+  width: fit-content; /* Breedte past zich aan aan de tekst */
 }
 
-/* Stijlen voor de waarom-link */
-.waarom-link {
-  display: block; /* Maak de link een blok */
-  margin-top: 20px; /* Ruimte boven de link */
-  padding: 10px; /* Padding rondom de link */
-  background-color: #f0f0f0; /* Achtergrondkleur van de link */
-  border: #f0f0f0 1px solid; /* Rand van de link */
-  color: #333; /* Tekstkleur van de link */
-  text-align: center; /* Centreer de tekst */
-  border-radius: 5px; /* Ronde hoeken */
-  width: 200px; /* Breedte van de link */
-  font-weight: bold; /* Vetgedrukte tekst */
-  text-decoration: none; /* Geen onderstreping */
-}
-
-/* Hover-effect voor de waarom-link */
-.waarom-link:hover {
-  border: rgb(224, 64, 64) 1px solid; /* Randkleur bij hover */
+/* Optioneel: Zorg ervoor dat alles mooi onder elkaar staat */
+p {
+  text-align: center; /* Tekst centreren */
 }
