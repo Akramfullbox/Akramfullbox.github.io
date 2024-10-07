@@ -71,7 +71,7 @@ li a:hover {
   text-align: right; /* Tekst uitlijnen naar rechts */
 }
 
-/* Zorg ervoor dat de container van de tekst aan de rechterkant staat */
+/* Zorg ervoor dat de container van de tekst aan de rechterkant staat en niet gemixt wordt door elkaar */
 .container {
   text-align: right; /* Uitlijnen naar rechts */
   margin-right: 10%; /* Ruimte aan de rechterkant */
