@@ -61,3 +61,11 @@ li a:hover {
   left: 1; /* Positie naar de linkerkant (enkele eenheid) */
 }
 
+.witte-tekst {
+  background-color: rgb(0, 153, 204); /* Achtergrondkleur */
+  color: white; /* Tekstkleur */
+  padding: 10px; /* Ruimte rondom de tekst */
+  border-radius: 5px; /* Ronde hoeken */
+  margin: 10px auto; /* Ruimte boven en onder, en centreren */
+  width: fit-content; /* Breedte past zich aan aan de tekst */
+}
