@@ -1,71 +1,73 @@
 body {
-  background-color: rgb(0, 255, 213); /* Achtergrondkleur van de pagina */
+  background-color: rgb(0, 255, 213); /* achtergrondkleur van de pagina */
 }
 
 .speciaal {
-  border: dashed 3px turquoise; /* Rand van de speciaal klasse */
-  background-color: azure; /* Achtergrondkleur van de speciaal klasse */
-  margin-left: 10%; /* Ruimte aan de linkerkant */
+  border: dashed 3px turquoise; /* rand van de speciaal klasse */
+  background-color: azure; /* achtergrondkleur van de speciaal klasse */
+  margin-left: 10%; /* ruimte aan de linkerkant */
 }
 
 ul {
-  list-style-type: none; /* Geen opsommingstekens voor de lijst */
-  margin: 0; /* Geen marge rondom de lijst */
-  padding: 0; /* Geen padding rondom de lijst */
-  overflow: hidden; /* Verbergt alles wat buiten de lijst valt */
-  background-color: #333; /* Achtergrondkleur van de lijst */
+  list-style-type: none; /* geen opsommingstekens voor de lijst */
+  margin: 0; /* geen marge rondom de lijst */
+  padding: 0; /* geen padding rondom de lijst */
+  overflow: hidden; /* verbergt alles wat buiten de lijst valt */
+  background-color: #333; /* achtergrondkleur van de lijst */
 }
 
 li {
-  float: left; /* Laat de lijstitems naast elkaar staan */
+  float: left; /* laat de lijstitems naast elkaar staan */
 }
 
 li a {
-  display: block; /* Zorgt dat de link als een blok wordt weergegeven */
-  color: white; /* Kleur van de tekst in de link */
-  text-align: center; /* Centreert de tekst in de link */
-  padding: 14px 16px; /* Ruimte rondom de tekst in de link */
-  text-decoration: none; /* Geen onderstreping voor de link */
+  display: block; /* zorgt dat de link als een blok wordt weergegeven */
+  color: white; /* kleur van de tekst in de link */
+  text-align: center; /* centreert de tekst in de link */
+  padding: 14px 16px; /* ruimte rondom de tekst in de link */
+  text-decoration: none; /* geen onderstreping voor de link */
 }
 
-/* Verander de achtergrondkleur van de link naar zwart als je eroverheen gaat */
+/* verander de achtergrondkleur van de link naar zwart als je eroverheen gaat */
 li a:hover {
-  background-color: #111; /* Achtergrondkleur als je over de link beweegt */
+  background-color: #111; /* achtergrondkleur als je over de link beweegt */
 }
 
 .waarom-link {
-  display: block; /* Zorgt dat de waarom-link als een blok wordt weergegeven */
-  margin-top: 20px; /* Ruimte boven de link */
-  padding: 10px; /* Ruimte rondom de tekst in de link */
-  background-color: #f0f0f0; /* Achtergrondkleur van de waarom-link */
-  border: #f0f0f0 1px solid; /* Rand rondom de waarom-link */
-  color: #333; /* Kleur van de tekst in de waarom-link */
-  text-align: center; /* Centreert de tekst in de waarom-link */
-  border-radius: 5px; /* Ronde hoeken voor de rand */
-  width: 200px; /* Breedte van de waarom-link */
-  font-weight: bold; /* Maak de tekst dikker */
-  text-decoration: none; /* Geen onderstreping voor de link */
+  display: block; /* zorgt dat de waarom-link als een blok wordt weergegeven */
+  margin-top: 20px; /* ruimte boven de link */
+  padding: 10px; /* ruimte rondom de tekst in de link */
+  background-color: #f0f0f0; /* achtergrondkleur van de waarom-link */
+  border: #f0f0f0 1px solid; /* rand rondom de waarom-link */
+  color: #333; /* kleur van de tekst in de waarom-link */
+  text-align: center; /* centreert de tekst in de waarom-link */
+  border-radius: 5px; /* ronde hoeken voor de rand */
+  width: 200px; /* breedte van de waarom-link */
+  font-weight: bold; /* maak de tekst dikker */
+  text-decoration: none; /* geen onderstreping voor de link */
 }
 
 .waarom-link:hover {
-  border: rgb(224, 64, 64) 1px solid; /* Verander de randkleur als je over de link beweegt */
+  border: rgb(224, 64, 64) 1px solid; /* verander de randkleur als je over de link beweegt */
 }
 
 .footer { 
-  background-color: rgb(240, 240, 240); /* Achtergrondkleur van de footer (lichtgrijs) */
-  padding: 12px; /* Ruimte rondom de inhoud van de footer */ 
-  text-align: center; /* Centreer de tekst in de footer */
-  color: rgb(0, 0, 0); /* Tekstkleur van de footer (zwart) */
-  position: relative; /* Relatieve positionering van de footer */
-  width: 100%; /* Volledige breedte van de footer */
-  left: 1; /* Positie naar de linkerkant (enkele eenheid) */
+  background-color: rgb(240, 240, 240); /* achtergrondkleur van de footer lichtgrijs */
+  padding: 12px; /* ruimte rondom de inhoud van de footer */ 
+  text-align: center; /* centreer de tekst in de footer */
+  color: rgb(0, 0, 0); /* tekstkleur van de footer (zwart) */
+  position: relative; /* relatieve positionering van de footer */
+  width: 100%; /* volledige breedte van de footer */
+  left: 1; /* positie naar de linkerkant (enkele eenheid) */
 }
 
 .witte-tekst {
-  background-color: rgb(0, 153, 204); /* Achtergrondkleur */
-  color: white; /* Tekstkleur */
-  padding: 10px; /* Ruimte rondom de tekst */
-  border-radius: 5px; /* Ronde hoeken */
-  margin: 10px auto; /* Ruimte boven en onder, en centreren */
-  width: fit-content; /* Breedte past zich aan aan de tekst */
+  background-color: rgb(0, 153, 204); /* achtergrondkleur */
+  color: white; /* tekstkleur */
+  padding: 10px; /* ruimte rondom de tekst */
+  border-radius: 5px; /* ronde hoeken */
+  margin: 10px auto; /* ruimte boven en onder en om te centreren */
+  width: fit-content; /* om de breedte aan te passen aan de tekst */
+  text-align:right; /* De tekst uitlijnen naar rechts */
+  float:right; /* Om het element naar rechts duwen */
 }
