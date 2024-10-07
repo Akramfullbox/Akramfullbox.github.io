@@ -69,5 +69,10 @@ li a:hover {
   margin: 10px 0; /* Ruimte boven en onder */
   width: fit-content; /* Breedte past zich aan aan de tekst */
   text-align: right; /* Tekst uitlijnen naar rechts */
-  float: right; /* Element naar rechts duwen */
+}
+
+/* Zorg ervoor dat de container van de tekst aan de rechterkant staat */
+.container {
+  text-align: right; /* Uitlijnen naar rechts */
+  margin-right: 10%; /* Ruimte aan de rechterkant */
 }
