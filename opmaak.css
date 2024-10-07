@@ -61,30 +61,3 @@ li a:hover {
   left: 1; /* Positie naar de linkerkant (enkele eenheid) */
 }
 
-body {
-  background-color: rgb(240, 255, 255); /* Lichte achtergrondkleur */
-  font-family: Arial, sans-serif; /* Lettertype */
-  color: #333; /* Kleur van de tekst */
-}
-
-/* Stijl voor kopjes (h3) */
-h3 {
-  color: rgb(0, 153, 204); /* Kleur voor kopjes */
-  text-align: center; /* Kopjes centreren */
-  margin-top: 20px; /* Ruimte boven het kopje */
-}
-
-/* Opmaak voor de paragrafen met schoolvakken en hobby's */
-.witte-tekst {
-  color: white; /* Witte tekstkleur */
-  background-color: rgb(0, 153, 204); /* Achtergrondkleur */
-  padding: 10px; /* Ruimte rondom de tekst */
-  border-radius: 5px; /* Ronde hoeken */
-  margin: 10px auto; /* Ruimte boven en onder, en centreren */
-  width: fit-content; /* Breedte past zich aan aan de tekst */
-}
-
-/* Optioneel: Zorg ervoor dat alles mooi onder elkaar staat */
-p {
-  text-align: center; /* Tekst centreren */
-}
