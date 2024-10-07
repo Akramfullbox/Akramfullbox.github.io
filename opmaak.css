@@ -62,12 +62,12 @@ li a:hover {
 }
 
 .witte-tekst {
-  background-color: rgb(0, 153, 204); /* achtergrondkleur */
-  color: white; /* tekstkleur */
-  padding: 10px; /* ruimte rondom de tekst */
-  border-radius: 5px; /* ronde hoeken */
-  margin: 10px auto; /* ruimte boven en onder en om te centreren */
-  width: fit-content; /* om de breedte aan te passen aan de tekst */
-  text-align:right; /* De tekst uitlijnen naar rechts */
-  float:right; /* Om het element naar rechts duwen */
+  background-color: rgb(0, 153, 204); /* Achtergrondkleur */
+  color: white; /* Tekstkleur */
+  padding: 10px; /* Ruimte rondom de tekst */
+  border-radius: 5px; /* Ronde hoeken */
+  margin: 10px 0; /* Ruimte boven en onder */
+  width: fit-content; /* Breedte past zich aan aan de tekst */
+  text-align: right; /* Tekst uitlijnen naar rechts */
+  float: right; /* Element naar rechts duwen */
 }
