@@ -52,7 +52,7 @@ ul {
   background-color: rgb(240, 240, 240); /* Achtergrondkleur van de footer (lichtgrijs) */
   padding: 12px; /* Ruimte rondom de inhoud van de footer */ 
   text-align: center; /* Centreer de tekst in de footer */
-  color: lightgray; /* Tekstkleur van de footer (lichtgrijs) */
+  color: rgb(0, 0, 0); /* Tekstkleur van de footer (lichtgrijs) */
   position: relative; /* Relatieve positionering van de footer */
   width: 100%; /* Volledige breedte van de footer */
   left: 1; /* Positie naar de linkerkant (enkele eenheid) */
